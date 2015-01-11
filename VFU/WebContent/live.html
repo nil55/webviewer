@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Live</title>
+        <meta name="description" content="Sidebar Transitions: Transition effects for off-canvas views" />
+        <meta name="keywords" content="transition, off-canvas, navigation, effect, 3d, css3, smooth" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/icons.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <script src="js/modernizr.custom.js"></script>
+    </head>
+    <body>
+        <div id="st-container" class="st-container">
+            <!-- 	
+                    example menus 
+                    these menus will be on top of the push wrapper
+            -->
+            <nav class="st-menu st-effect-4" id="menu">
+                <h2 class="icon icon-lab">HRK VFU MENU</h2>
+                <ul>
+                    <li><a class="icon icon-location" href="index.html">Home</a></li>
+                    <li><a class="icon icon-data" href="live.html">Live App</a></li>
+                    <li><a class="icon icon-study" href="history.html">History</a></li>
+                    <li><a class="icon icon-photo" href="datagrams.html">Data-grams</a></li>
+                    <li><a class="icon icon-wallet" href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <!-- content push wrapper -->
+
+            <div class="st-content"><!-- this is the wrapper for the content -->
+                <div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
+                    <!-- Top Navigation -->
+
+                    <header class="codrops-header">
+                        <h1>Go Live!<span>get live feed values</span></h1>
+                    </header>
+                    <div  class="main clearfix">
+                        <div id="st-trigger-effects" class="column">
+                                <p>Live-view is a application</p><br>
+                                <button form="square">Start app</button><br>
+                                <p>Don't have the app?</p><br>
+                                <button form="square">Get the app</button><br>
+                            <button data-effect="st-effect-4">menu</button>
+                        </div>
+                    </div>
+                </div><!-- /st-content-inner -->
+            </div><!-- /st-content -->
+        </div><!-- /st-container -->
+       <script src="js/classie.js"></script>
+        <script src="js/sidebarEffects.js"></script>
+    </body>
+</html>
